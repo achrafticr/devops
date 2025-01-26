@@ -13,7 +13,7 @@ app.use(express.json());
 // Serve a simple HTML form for the calculator interface
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Node.js Calculator3</h1>
+    <h1>Node.js Calculator4</h1>
     <form method="POST" action="/calculate">
       <input type="number" name="num1" required placeholder="First number" />
       <select name="operator" required>
